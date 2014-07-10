@@ -15,6 +15,11 @@
         "php": ">=5.2.0",
         "ext-gd": "*"
     },
+    "extra": {
+        "branch-alias": {
+          "dev-master": "3.5.x-dev"
+        }
+    },
     "autoload": {
         "classmap": ["securimage.php"]
     }
